@@ -25,6 +25,7 @@ Included in this repository are:
 
 # Attribution
 ---------------
+Please use the following citation, if you find these tools useful in your research.
 ```
 @article{Quarles2020,
 author = {{Quarles}, B. and {Li}, G. and {Rosario-Franco}, M.},
