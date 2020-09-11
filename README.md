@@ -1,13 +1,25 @@
 # satcand
 Tools to apply theoretical constraints of orbital stability and tidal migration to KOI exomoon candidates.  
 
-This is a repository for tools to apply known theoretical constraints of orbital stability and tidal migration to KOI exomoon candidates. 
-Orbital stability analysis provides critical semimJor axis (a_c), of exomoons in terms of AU. And orbital evolution provides angular frequency evolution considering different tidal constant models (Q) and mass ratios. 
+This is a repository for tools to apply known theoretical constraints of orbital stability and tidal migration to KOI exomoon candidates, which reproduce the figures in Quarles, Li, & Rosario-Franco (2020). Orbital stability analysis from Rosario-Franco et al. (2020) can provide the critical semimJor axis (a_c) of exomoons in terms of the host planet's Hill radius R_H (in AU), where this can be scaled/converted into units of the planetary radius R_p (in AU). Using our knowledge of the solar system planets, we can evaluate the orbital evolution due to tidal migration considering a constant Q tidal model (e.g., Sasaki, Barnes & O'Brien (2012)). 
 
-Included are: 
-xxx.py-applies tidal migration analysis using plausible parameters from the solar system and plots angular velocity over time. Similar to figure 1 from Sasaki et al.(2012); it determines the time evolution of the spin angular momentum of the planet (omega_p) and the orbital mean motion of the planet and the moon (nu_p and nu_m, respectively). 
-xxx.py-implements decision tree algorithm to calculate the migration time scale (T1) and the total migration time scale (T). Both T1 and T are calculated and plotted as vertical and horizontal lines withing the angular velocity evolution plot. 
-xxx.py- produces figure 3 from Quarles et al. 2020, which [...not sure what else to write]. 
+Included in this repository are: 
+* xxx.py
+  * produces Figure 1 from Quarles, Li, & Rosario-Franco (2020)
+* xxx.py
+  * evaluates the tidal migration within a Sun-Earth-Moon system using initial conditions from Sasaki, Barnes, & O'Brien (see their Fig. 1)
+  * plots angular velocity over time, which includes the time evolution of the spin angular momentum of the planet (omega_p), the orbital mean motion of the planet n_p, and the orbital mean motion of the satellite n_sat 
+* xxx.py
+  * implements the decision tree algorithm from Sasaki, Barnes, & O'Brien (2012) to calculate the migration time scale (T1) and the total migration time scale (T).
+  * Both T1 and T are calculated and plotted as vertical and horizontal lines withing the angular velocity evolution plot. 
+* xxx.py
+  * demonstrates the calculation of the minimum Q_p so that stable moon parameters (mass and separation) can be inferred
+  * produces Figure 2 from Quarles, Li, & Rosario-Franco (2020) 
+* xxx.py
+  * produces Figure 3 from Quarles, Li, & Rosario-Franco (2020), which [...not sure what else to write]. 
+* xxx.py
+  * combines theoretical and observational constraints for the 6 KOI candidates proposed by Fox & Wiegert (2020)
+  * produces Figure 4 from Quarles, Li, & Rosario-Franco (2020)
 
 [should i describe the data? specify to run the code? ]
 
@@ -17,7 +29,7 @@ xxx.py- produces figure 3 from Quarles et al. 2020, which [...not sure what else
 @article{Quarles2020,
 author = {{Quarles}, B. and {Li}, G. and {Rosario-Franco}, M.},
 title = "{Application of Orbital Stability and Tidal Migration Constraints for Exomoon Candidates}",
-journal = {\mnras},
+journal = {\apjl},
 year = 2020,
 status = {submitted}
 }
