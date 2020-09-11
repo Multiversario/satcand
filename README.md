@@ -2,7 +2,7 @@
 Tools to apply theoretical constraints of orbital stability and tidal migration to KOI exomoon candidates.  
 
 This is a repository for tools to apply known theoretical constraints of orbital stability and tidal migration to KOI exomoon candidates. 
-Orbital stability contraints provide critical semimJor axis (a_c), of exomoons in terms of AU. And orbital evolution with different tidal constants (Q) and mass ratios. 
+Orbital stability analysis provides critical semimJor axis (a_c), of exomoons in terms of AU. And orbital evolution provides angular frequency evolution considering different tidal constant models (Q) and mass ratios. 
 
 Included are: 
 xxx.py-applies tidal migration analysis using plausible parameters from the solar system and plots angular velocity over time. Similar to figure 1 from Sasaki et al.(2012); it determines the time evolution of the spin angular momentum of the planet (omega_p) and the orbital mean motion of the planet and the moon (nu_p and nu_m, respectively). 
