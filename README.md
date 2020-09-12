@@ -12,9 +12,10 @@ Included in this repository are:
 * SBO_tidal_tree.py
   * implements the decision tree algorithm from [Sasaki, Barnes & O'Brien (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...754...51S/abstract) to calculate the migration time scale (T1) and the total migration time scale (T).
   * Both T1 and T are calculated and plotted as vertical and horizontal lines withing the angular velocity evolution plot. 
-* xxx.py
+* Calc_tidal_limit.py
   * demonstrates the calculation of the minimum Q_p so that stable moon parameters (mass and separation) can be inferred
-  * produces Figure 2 from Quarles, Li, & Rosario-Franco (2020) 
+* plot_Q_crit.py
+  * produces Figure 2 from Quarles, Li, & Rosario-Franco (2020) using output from Calc_tidal_limit.py
 * xxx.py
   * produces Figure 3 from Quarles, Li, & Rosario-Franco (2020), which [...not sure what else to write]. 
 * xxx.py
