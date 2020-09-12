@@ -16,8 +16,9 @@ Included in this repository are:
   * demonstrates the calculation of the minimum Q_p so that stable moon parameters (mass and separation) can be inferred
 * plot_Q_crit.py
   * produces Figure 2 from Quarles, Li, & Rosario-Franco (2020) using output from Calc_tidal_limit.py
-* xxx.py
-  * produces Figure 3 from Quarles, Li, & Rosario-Franco (2020), which [...not sure what else to write]. 
+* plot_tide_evol.py
+  * produces Figure 3 from Quarles, Li, & Rosario-Franco (2020) using the output from tidal migration.py
+  * assumes that the satellite is initially separaterd by 5 R_p and the host planet spin period is 10 hours
 * xxx.py
   * combines theoretical and observational constraints for the 6 KOI candidates proposed by [Fox & Wiegert (2020)](https://ui.adsabs.harvard.edu/abs/2020arXiv200612997F/abstract).
   * produces Figure 4 from Quarles, Li, & Rosario-Franco (2020)
