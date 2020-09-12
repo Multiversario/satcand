@@ -17,13 +17,15 @@ Included in this repository are:
 * plot_Q_crit.py
   * produces Figure 2 from Quarles, Li, & Rosario-Franco (2020) using output from Calc_tidal_limit.py
 * plot_tide_evol.py
-  * produces Figure 3 from Quarles, Li, & Rosario-Franco (2020) using the output from tidal migration.py
+  * produces Figure 3 from Quarles, Li, & Rosario-Franco (2020) using the output in KOI1925 folder
   * assumes that the satellite is initially separaterd by 5 R_p and the host planet spin period is 10 hours
-* xxx.py
+* plot_combined_constraints.py
   * combines theoretical and observational constraints for the 6 KOI candidates proposed by [Fox & Wiegert (2020)](https://ui.adsabs.harvard.edu/abs/2020arXiv200612997F/abstract).
+  * uses 3\sigma curves from [Kipping (2020)](https://ui.adsabs.harvard.edu/abs/2020arXiv200803613K/abstract)
+  * uses output from Calc_tidal_limit.py
   * produces Figure 4 from Quarles, Li, & Rosario-Franco (2020)
 
-[should i describe the data? specify to run the code? ]
+These python scripts assume that the basic dependencies (e.g., Numpy, Scipy, Matplotlib) are already installed or the user is in an Anaconda environment.
 
 # Attribution
 ---------------
