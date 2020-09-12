@@ -10,10 +10,9 @@ Included in this repository are:
   * produces Figure 1 from Quarles, Li, & Rosario-Franco (2020)
 * tidal_migration.py
   * evaluates the tidal migration within a Sun-Earth-Moon system using initial conditions from [Sasaki, Barnes & O'Brien (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...754...51S/abstract) (see their Fig. 1)
-  * plots angular velocity over time, which includes the time evolution of the spin angular momentum of the planet (omega_p), the orbital mean motion of the planet n_p, and the orbital mean motion of the satellite n_sat (SBO_tide_evol.png)
+  * plots angular velocity over time, which includes the time evolution of the spin angular momentum of the planet (omega_p), the orbital mean motion of the planet n_p, and the orbital mean motion of the satellite n_sat (SBO_tide_evol.png).  Both T1 and T are calculated and plotted as vertical within the angular velocity evolution plot.
 * SBO_tidal_tree.py
-  * implements the decision tree algorithm from [Sasaki, Barnes & O'Brien (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...754...51S/abstract) to calculate the migration time scale (T1) and the total migration time scale (T).
-  * Both T1 and T are calculated and plotted as vertical and horizontal lines withing the angular velocity evolution plot. 
+  * implements the decision tree algorithm from [Sasaki, Barnes & O'Brien (2012)](https://ui.adsabs.harvard.edu/abs/2012ApJ...754...51S/abstract) to calculate the migration time scale (T1) and the total migration time scale (T). 
 * Calc_tidal_limit.py
   * demonstrates the calculation of the minimum Q_p so that stable moon parameters (mass and separation) can be inferred
 * plot_Q_crit.py
