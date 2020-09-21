@@ -37,6 +37,6 @@ author = {{Quarles}, B. and {Li}, G. and {Rosario-Franco}, M.},
 title = "{Application of Orbital Stability and Tidal Migration Constraints for Exomoon Candidates}",
 journal = {\apjl},
 year = 2020,
-status = {submitted}
+status = {in press}
 }
 ```
