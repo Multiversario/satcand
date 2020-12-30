@@ -32,11 +32,22 @@ These python scripts assume that the basic dependencies (e.g., Numpy, Scipy, Mat
 ---------------
 Please use the following citation, if you find these tools useful in your research.
 ```
-@article{Quarles2020,
-author = {{Quarles}, B. and {Li}, G. and {Rosario-Franco}, M.},
-title = "{Application of Orbital Stability and Tidal Migration Constraints for Exomoon Candidates}",
-journal = {\apjl},
-year = 2020,
-status = {in press}
+@ARTICLE{Quarles2020,
+       author = {{Quarles}, Billy and {Li}, Gongjie and {Rosario-Franco}, Marialis},
+        title = "{Application of Orbital Stability and Tidal Migration Constraints for Exomoon Candidates}",
+      journal = {\apjl},
+     keywords = {Exoplanet dynamics, Exoplanet tides, Natural satellites (Extrasolar), Exoplanet systems, 490, 497, 483, 484, Astrophysics - Earth and Planetary Astrophysics},
+         year = 2020,
+        month = oct,
+       volume = {902},
+       number = {1},
+          eid = {L20},
+        pages = {L20},
+          doi = {10.3847/2041-8213/abba36},
+archivePrefix = {arXiv},
+       eprint = {2009.14723},
+ primaryClass = {astro-ph.EP},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020ApJ...902L..20Q},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
